@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    background-position: center;
+    font-family: Verdana, Tahoma, sans-serif ; 
+    color: pink;
+    background: rgb(10,42,36); 
+    background: linear-gradient(60deg, rgba(36,10,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,100,1) 100%);
+    /*background:url("https://res.cloudinary.com/nade/image/upload/v1567533535/StartNG/20190828_102826_ckuqsf.jpg");**/
+   /* background:url("https://res.cloudinary.com/nade/image/upload/v1567593581/StartNG/Psp_aowcan.jpg");**/
+    background-size: cover;
+
+
+}
+
+
+.contact-title{
+   margin-top: 100px;
+     transition: all 1s ease-in-out;
+   
+   
+}
+
+.contact-title h1{
+    font-size: 32px;
+    font-family: serif;
+    font-style: italic;
+    color: pink;
+    line-height: 10px;
+}
+.contact-title h2{
+    font-size: 16px;
+    color: yellow;
+    font-style: oblique;
+    
+}
+.contact-title h3{
+    font-size: 32px;
+    font-family: serif;
+    font-style: italic;
+    color: orange;
+    line-height: 10px;
+}
+form{
+    margin-top: 50px;
+    transition: all 5s ease-in-out
+
+}
+.forthecommentboxes{
+    width: 600px;
+    background:transparent;
+    border: none;
+    outline: none;
+    border-top: 2px solid orange;
+    border-right: 3px solid pink;
+    border-bottom: 1px solid purple;
+    border-left: 3px solid green;
+    color: #00ff00;
+    font-size: 18px;
+    margin-bottom: 16px;
+
+}
+
+input{
+
+    height: 45px;
+}
+
+.forthesubmitbox{
+    background: purple;
+    border-radius: 5px
+    border-color: transparent;
+    color:#38a1f3;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.forthesubmitbox:hover{
+    background-color: blue;
+
+    cursor: pointer;
+
+}
+
+
+
+
